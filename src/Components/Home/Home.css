@@ -1,0 +1,11 @@
+.container-home{
+    background-color: rgba(24, 23, 23, 0.986);
+}
+.title-home{
+color: whitesmoke;
+font-size: 35px;
+font-weight: 800;
+padding-top: 35px;
+padding-bottom: 35px;
+text-decoration: underline;
+}

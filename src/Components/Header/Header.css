@@ -1,0 +1,210 @@
+.container-header {
+    height: 80px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.986);
+}
+.img-header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.container-header-row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items-header-columnimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.items-header-columnItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.items-header-columnItems h1 {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 25px 30px;
+}
+
+.items-header-columnSearch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.input-header {
+    background-color: rgba(19, 18, 18, 0.986);
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+.items-columnSearch{
+    display: flex;
+    align-items: center;
+}
+.btn-primary {
+    background-color: rgba(19, 18, 18, 0.986);
+    border-color: rgba(19, 18, 18, 0.986);
+}
+
+.btn-primary:hover {
+    background-color: rgba(11, 80, 230, 0.986);
+    border-color: rgba(19, 18, 18, 0.986);
+}
+
+.link-to-opts {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link-to-opts:hover h1 {
+    padding: 25px 30px;
+    background-color: #121313;
+    color: #404041;
+    cursor: pointer;
+}
+
+.link-to-opts h1 {
+    flex-grow: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.dropdown-responsive-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0%;
+width: 200px;
+    background: #121313;
+    box-shadow: 0 4px 8px rgba(209, 206, 206, 0.1);
+    z-index: 1000;
+    
+}
+.dropdown-responsive-menu a:hover {
+    background-color: #404041;
+    color: #fff;
+}
+
+.dropdown-responsive-menu a {
+    padding: 1rem;
+   
+    text-align: center;
+    text-decoration: none;
+    color: #d8c9c9;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 990px) {
+    .items-header-columnItems, .items-header-columnSearch form {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        margin-right: 20px;
+    }
+    .dropdown-responsive-menu {
+        display: flex;
+    }
+   
+    
+}
+@media (min-width: 990px) {
+    .input-header {
+       
+        background-color: rgba(19, 18, 18, 0.986);
+        border-radius: 5px;
+        border: none;
+        height: 37px;
+        width: 145px;
+        margin-right: 5px;
+        color: aliceblue;
+    }
+}
+
+@media (min-width: 1200px) {
+  
+.input-header {
+    background-color: rgba(19, 18, 18, 0.986);
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    color: aliceblue;
+}
+}
+
+@media (max-width: 1400px) {
+  
+    .container-header-row {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0%;
+        padding-right: 0%;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .container-header {
+        height: 80px;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.986);
+        display: flex;
+        align-items: center;
+    }
+    }
+
+    @media (max-width: 430px) {
+  
+        .container-header-row {
+            display: flex;
+            flex-direction: row;
+            padding-left: 0%;
+            padding-right: 0%;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .img-header{
+            height: 60px;
+            display: flex;
+            align-items: center;
+        }
+        .container-header {
+            height: 80px;
+            width: auto;
+            background-color: rgba(0, 0, 0, 0.986);
+            display: flex;
+            align-items: center;
+        }
+      
+        }
+    

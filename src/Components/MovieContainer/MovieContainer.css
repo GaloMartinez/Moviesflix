@@ -1,0 +1,30 @@
+.container-movie-card{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}
+
+.title-container-movies{
+    color: antiquewhite;
+    font-size: 15px;
+}
+.movie-card{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (min-width: 990px) {
+   
+    .title-container-movies{
+        color: antiquewhite;
+        font-size: 20px;
+    }
+    .container-movie-card{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+}
